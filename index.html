@@ -15,22 +15,25 @@
 <body>
     
     <div class="container">
+
+        <div class="navigation">
+            <ul>
+                <li><a href="#banner" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#services" onclick="toggleMenu()">Services</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#testimonial" onclick="toggleMenu()">Testimonials</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+        </div>
+
         <div class="main">
+
             <!--MENU-->
             <div class="topbar">
                 <a href="#" class="logo">PortFolio</a>
-                <div class="navigation">
-                    <div class="toggle">
+                <div class="toggle">
                     <i class="fa fa-bars" aria-hidden="true"></i>
-                    </div>
-                    <ul>
-                        <li><a href="#banner" onclick="toggleMenu()">Home</a></li>
-                        <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                        <li><a href="#services" onclick="toggleMenu()">Services</a></li>
-                        <li><a href="#project" onclick="toggleMenu()">Projects</a></li>
-                        <li><a href="#testimonial" onclick="toggleMenu()">Testimonials</a></li>
-                        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-                    </ul>
                 </div>
             </div>
 
@@ -256,8 +259,6 @@
         </div>
     </div>
 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
